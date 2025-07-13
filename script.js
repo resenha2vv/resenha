@@ -7,15 +7,15 @@ const closeModal = document.getElementById('closeModal');
 
 const vouchers = {
   1: "🍔 Vale pedido de comida (à sua escolha) - até 13/06/2026",
-  2: "🎬 Troca De Roupa",
-  3: "🥐 Vale vivara",
-  4: "🌅 Uma noite só nossa",
-  5: "💆‍♀️ Viagem Surpresa",
+  2: "🎬 Dia Do Sim❤️",
+  3: "🥐 Vale café da manhã na cama, feito com amor",
+  4: "🌅 Uma noite só nossos sonhos",
+  5: "💆‍♀️ sessão de fotos profissional",
   6: "🍔 Vale passeio romântico surpresa - até 13/06/2026",
-  7: "🎬 Vale Fran ",
+  7: "🎬 Vale cinema a dois com pipoca ❤️",
   8: "🥐 Realizar 1 sonho seu",
   9: "🌅 Noite sem celulares",
-  10: "💆‍♀️ Jantar as cegas (escolha de tema na roleta)",
+  10: "💆‍♀️ Jantar as cegas tematico",
   11: "💆‍♀️ Mapa do tesouro"
 };
 
