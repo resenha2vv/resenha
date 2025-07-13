@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>❤️ Primeiro MÊS de Namor ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>❤️ Primeiro MÊS de Namoro ❤️</h1>
+      <p class="subtitle">Uma surpresinha especial para nós dois.</p>
+    </header>
+
+    <section id="intro">
+      <p>
+        Faltam <strong>11 meses</strong> para o nosso aniversário. Preparei algo especial para curtirmos esse tempo juntos de um jeito diferente. ❤️
+      </p>
+      <h2>Regras</h2>
+      <ul>
+        <li>Você pode abrir <strong>1 por mês</strong>.</li>
+        <li>Escolha com amor, cada um é uma surpresa. 🎁</li>
+        <li>Depois de abrir, precisa esperar até o mês seguinte. ⏳</li>
+      </ul>
+      <button id="startBtn">✨ Vamos Lá! ✨</button>
+    </section>
+
+    <section id="cards" class="hidden">
+      <h2>Escolha seu presente 🎁</h2>
+      <div class="card-grid">
+        <button class="card" data-id="1">💌 1</button>
+        <button class="card" data-id="2">💌 2</button>
+        <button class="card" data-id="3">💌 3</button>
+        <button class="card" data-id="4">💌 4</button>
+        <button class="card" data-id="5">💌 5</button>
+        <button class="card" data-id="6">💌 6</button>
+        <button class="card" data-id="7">💌 7</button>
+        <button class="card" data-id="8">💌 8</button>
+        <button class="card" data-id="9">💌 9</button>
+        <button class="card" data-id="10">💌 10</button>
+        <button class="card" data-id="11">💌 11</button>
+      </div>
+    </section>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>🎁 Seu Voucher ❤️</h2>
+      <p id="voucherText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
